@@ -1,3 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 175%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+div.box {
+	position: relative;
+	background-color: lightgray;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+p.title {
+	font-size: 125%;
+	font-weight: bold;
+	border: 1px solid black;
+	height: 25px;
+	width: 25%;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+}
+
+#q1 {
+	background-color: yellow;
+}
+
+#q2 {
+	background-color: lightblue;
+}
+
+#q3 {
+	background-color: red;
+}
+
+section.text {
+	width: 100%;
+	padding: 10px;
+	padding-top: 30px;
+	font-family: Times New Roman, sans-serif;
+	color: black;
+}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -7,7 +58,6 @@
 @media (min-width: 992px) {
   .col-desktop-1, .col-desktop-2, .col-desktop-3, .col-desktop-4, .col-desktop-5, .col-desktop-6, .col-desktop-7, .col-desktop-8, .col-desktop-9, .col-desktop-10, .col-desktop-11, .col-desktop-12 {
     float: left;
-    /* border: 1px solid black; */
   }
   .col-desktop-1 {
     width: 8.33%;
@@ -51,7 +101,6 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, .col-tablet-6, .col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, .col-tablet-11, .col-tablet-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-tablet-1 {
     width: 8.33%;
